@@ -1,0 +1,59 @@
+.Navbar {
+    background: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
+
+.nav-logo {
+    color: white;
+}
+
+
+
+img {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.Card {
+    display: flex;
+    padding: 1rem;
+    max-width: 550px;
+    margin: auto;
+}
+
+.card-text {
+    padding:1rem;
+}
+
+.fa-location-dot {
+    color: #F55A5A
+}
+
+.card-location-map {
+    display: flex;
+}
+
+.card-location {
+    text-transform: capitalize;
+    letter-spacing: 0.17rem;
+    font-size: 0.64rem;
+    margin: 0 0.225rem;
+}
+
+.card-dates {
+    font-weight: bold;
+}
+
+.card-map {
+    font-size: 0.64rem;
+}
+
+.card-description {
+    font-size: 0.64rem;
+    font-weight: 400;
+}
